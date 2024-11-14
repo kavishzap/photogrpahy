@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <div className="md:sticky md:top-0   md:shadow-none z-[9999] ">
       {/* DESKTOP */}
-      <div className=" hidden lg:block animate-in fade-in zoom-in bg-background p-4 pt-0 pb-0 border-b border-b-superGray">
+      <div className=" hidden lg:block animate-in fade-in zoom-in bg-black p-4 pt-0 pb-0 border-b border-b-superGray">
         <div className="flex justify-between mx-[41px] gap-8 items-center ">
           <div className="flex gap-[2.5rem] items-center">
             <div className="flex border-r border-r-superGray self-stretch h-[7.15rem]"></div>
@@ -57,7 +57,7 @@ function NavBar() {
       </div>
       {/* MOBILE */}
       <div
-        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999] bg-black animate-in fade-in zoom-in border-b border-b-superGray  ${
+        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999] bg-[#000000] animate-in fade-in zoom-in border-b border-b-superGray  ${
           menu ? " bg-primary py-2" : ""
         } `}
       >
